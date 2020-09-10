@@ -1,0 +1,25 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack-demo",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woai3c/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woai3c/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/woai3c/webpack-demo#readme"
+}
