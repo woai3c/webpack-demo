@@ -14,11 +14,18 @@ module.exports = {
             {
                 test: /\.js$/,
                 use: [
+                    // loader 的执行顺序从下到上
                     {
-                        loader: path.resolve('./src/loader.js'),
-                    }
+                        loader: path.resolve('./src/loader2.js'),
+                    },
+                    {
+                        loader: path.resolve('./src/loader1.js'),
+                    },
                 ]
             }
         ]
+    },
+    devServer: {
+        contentBase: './dist',
     },
 }
