@@ -1,4 +1,5 @@
 const path = require('path')
+const Plugin = require('./src/plugin')
 
 module.exports = {
     mode: 'development',
@@ -28,4 +29,7 @@ module.exports = {
     devServer: {
         contentBase: './dist',
     },
+    plugins: [
+        new Plugin()
+    ]
 }
