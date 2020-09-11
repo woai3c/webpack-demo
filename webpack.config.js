@@ -26,9 +26,6 @@ module.exports = {
             }
         ]
     },
-    devServer: {
-        contentBase: './dist',
-    },
     plugins: [
         new Plugin()
     ]
